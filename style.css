@@ -1,0 +1,436 @@
+body{
+	background:url(images/test.png)no-repeat fixed ;
+	background-size: cover;
+}
+header
+{
+	background:url(images/pdp.gif) no-repeat top right ,url(images/test.jpg); /*logo en haut a gauche et une seule image en fond*/
+	height:auto;
+	color:white;
+	word-wrap: break-word;
+}
+h1
+{
+	color:red;
+	text-align: center;
+}
+nav
+{
+	position: fixed;
+	margin-top: -3%;
+	z-index: 999;
+}
+nav a
+{
+	width: 25%;
+	margin-left:50px;
+	text-decoration: none;
+	list-style-type:none;
+}
+section{
+	opacity:0.5;
+}
+section h2
+{
+	margin-top: 38%;
+	text-align: center;
+}
+#menu li
+{
+	background-image:url(images/soleil.jpg);
+	border-radius: 35px;
+	text-align: center;
+	height:50px;
+	padding-top: 25%;
+}
+#menu2 li
+{
+	background-image:url(images/terre.jpg);
+	border-radius: 35px;
+	text-align: center;
+	height:50px;
+	padding-top: 25%;
+
+}
+#menu3 li
+{
+	background-image:url(images/Mars.jpg);
+	border-radius: 35px;
+	text-align: center;
+	height:50px;
+	padding-top: 25%;
+}
+#menu4 li
+{
+	background-image:url(images/saturne.gif);
+	transform: rotate(45deg);
+	border-radius: 35px;
+	text-align: center;
+	height:50px;
+	padding-top: 25%;
+}
+#competances
+{
+	background-color: silver;
+	width: 50%;
+	height: auto;
+	margin-left : 15%;
+	padding-top: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 2%;
+	border-radius: 35px;
+	float:left;
+}
+#diplomes
+{
+	background-color: silver;
+	height: auto;
+	width: 12%;
+	margin-left : 77%;
+	padding-top: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 2%;
+	border-radius: 35px;
+	position:relative;
+}
+#formations
+{
+	background-color: silver;
+	height: auto;
+	width: 12%;
+	margin-left : 77%;
+	margin-top: 1%;
+	padding-top: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 2%;
+	border-radius: 35px;
+	position:relative;
+}
+#loisirs
+{
+	background-color: silver;
+	height: auto;
+	width: 12%;
+	margin-left : 77%;
+	margin-top: 1%;
+	padding-top: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 2%;
+	border-radius: 35px;
+	position:relative;
+}
+.progress-barLinux {
+	width: auto;/* la bar mesure auto*/
+	height: 24px;/* a 24px de hauteur*/
+	padding: 4px;/* a l'interieur la ligne noir sera a 4px de gauche droite haut bas*/
+	margin-left: 300px;
+	margin-top: -50px;
+	background-color: #534A4A; /* la couleur sera noir */
+	border-radius: 16px; /* coin arrondi */
+	position:relative;
+}
+.progress-barLinux:before
+{
+	content: '5%';/* la valeur dans la bar de progression */
+	text-align: center;
+	position: absolute; /* elle sera au dessus de tout */
+	width: 5%; /* la barre de progresssion sera a 5% */
+	max-width: 98%;
+	height: 24px;/* a 24px de hauteur*/
+	background: silver; /* la progression sera de couleur silver */
+	border-radius: 12px;/* coin arrondi */
+}
+.progress-barNano {
+	width: auto;/* la bar mesure auto*/
+	height: 24px;/* a 24px de hauteur*/
+	padding: 4px;/* a l'interieur la ligne noir sera a 4px de gauche droite haut bas*/
+	margin-left: 300px;
+	margin-top: -50px;
+	background-color: #534A4A; /* la couleur sera noir */
+	border-radius: 16px; /* coin arrondi */
+	position:relative;
+}
+.progress-barNano:before
+{
+	content: '5%';/* la valeur dans la bar de progression */
+	text-align: center;
+	position: absolute; /* elle sera au dessus de tout */
+	width: 5%; /* la barre de progresssion sera a 5% */
+	max-width: 98%;
+	height: 24px;/* a 24px de hauteur*/
+	background: silver; /* la progression sera de couleur silver */
+	border-radius: 12px;/* coin arrondi */
+}
+.progress-barGitGithub {
+	width: auto;/* la bar mesure auto*/
+	height: 24px;/* a 24px de hauteur*/
+	padding: 4px;/* a l'interieur la ligne noir sera a 4px de gauche droite haut bas*/
+	margin-left: 300px;
+	margin-top: -50px;
+	background-color: #534A4A; /* la couleur sera noir */
+	border-radius: 16px; /* coin arrondi */
+	position:relative;
+}
+.progress-barGitGithub:before
+{
+	content: '5%';/* la valeur dans la bar de progression */
+	text-align: center;
+	position: absolute; /* elle sera au dessus de tout */
+	width: 5%; /* la barre de progresssion sera a 5% */
+	max-width: 98%;
+	height: 24px;/* a 24px de hauteur*/
+	background: silver; /* la progression sera de couleur silver */
+	border-radius: 12px;/* coin arrondi */
+}
+.progress-barHtml {
+	width: auto;/* la bar mesure auto*/
+	height: 24px;/* a 24px de hauteur*/
+	padding: 4px;/* a l'interieur la ligne noir sera a 4px de gauche droite haut bas*/
+	margin-left: 300px;
+	margin-top: -50px;
+	background-color: #534A4A; /* la couleur sera noir */
+	border-radius: 16px; /* coin arrondi */
+	position:relative;
+}
+.progress-barHtml:before
+{
+	content: '15%';/* la valeur dans la bar de progression */
+	text-align: center;
+	position: absolute; /* elle sera au dessus de tout */
+	width: 15%; /* la barre de progresssion sera a 5% */
+	max-width: 98%;
+	height: 24px;/* a 24px de hauteur*/
+	background: silver; /* la progression sera de couleur silver */
+	border-radius: 12px;/* coin arrondi */
+}
+.progress-barCss {
+	width: auto;/* la bar mesure auto*/
+	height: 24px;/* a 24px de hauteur*/
+	padding: 4px;/* a l'interieur la ligne noir sera a 4px de gauche droite haut bas*/
+	margin-left: 300px;
+	margin-top: -50px;
+	background-color: #534A4A; /* la couleur sera noir */
+	border-radius: 16px; /* coin arrondi */
+	position:relative;
+}
+.progress-barCss:before
+{
+	content: '12%';/* la valeur dans la bar de progression */
+	text-align: center;
+	position: absolute; /* elle sera au dessus de tout */
+	width: 12%; /* la barre de progresssion sera a 5% */
+	max-width: 98%;
+	height: 24px;/* a 24px de hauteur*/
+	background: silver; /* la progression sera de couleur silver */
+	border-radius: 12px;/* coin arrondi */
+}
+.progress-barAtom {
+	width: auto;/* la bar mesure auto*/
+	height: 24px;/* a 24px de hauteur*/
+	padding: 4px;/* a l'interieur la ligne noir sera a 4px de gauche droite haut bas*/
+	margin-left: 300px;
+	margin-top: -50px;
+	background-color: #534A4A; /* la couleur sera noir */
+	border-radius: 16px; /* coin arrondi */
+	position:relative;
+}
+.progress-barAtom:before
+{
+	content: '17%';/* la valeur dans la bar de progression */
+	text-align: center;
+	position: absolute; /* elle sera au dessus de tout */
+	width: 17%; /* la barre de progresssion sera a 5% */
+	max-width: 98%;
+	height: 24px;/* a 24px de hauteur*/
+	background: silver; /* la progression sera de couleur silver */
+	border-radius: 12px;/* coin arrondi */
+}
+.progress-barPhp {
+	width: auto;/* la bar mesure auto*/
+	height: 24px;/* a 24px de hauteur*/
+	padding: 4px;/* a l'interieur la ligne noir sera a 4px de gauche droite haut bas*/
+	margin-left: 300px;
+	margin-top: -50px;
+	background-color: #534A4A; /* la couleur sera noir */
+	border-radius: 16px; /* coin arrondi */
+	position:relative;
+}
+.progress-barPhp:before
+{
+	content: '7%';/* la valeur dans la bar de progression */
+	text-align: center;
+	position: absolute; /* elle sera au dessus de tout */
+	width: 7%; /* la barre de progresssion sera a 5% */
+	max-width: 98%;
+	height: 24px;/* a 24px de hauteur*/
+	background: silver; /* la progression sera de couleur silver */
+	border-radius: 12px;/* coin arrondi */
+}
+.progress-barVhost {
+	width: auto;/* la bar mesure auto*/
+	height: 24px;/* a 24px de hauteur*/
+	padding: 4px;/* a l'interieur la ligne noir sera a 4px de gauche droite haut bas*/
+	margin-left: 300px;
+	margin-top: -50px;
+	background-color: #534A4A; /* la couleur sera noir */
+	border-radius: 16px; /* coin arrondi */
+	position:relative;
+}
+.progress-barVhost:before
+{
+	content: '6%';/* la valeur dans la bar de progression */
+	text-align: center;
+	position: absolute; /* elle sera au dessus de tout */
+	width: 6%; /* la barre de progresssion sera a 5% */
+	max-width: 98%;
+	height: 24px;/* a 24px de hauteur*/
+	background: silver; /* la progression sera de couleur silver */
+	border-radius: 12px;/* coin arrondi */
+}
+.progress-barApache {
+	width: auto;/* la bar mesure auto*/
+	height: 24px;/* a 24px de hauteur*/
+	padding: 4px;/* a l'interieur la ligne noir sera a 4px de gauche droite haut bas*/
+	margin-left: 300px;
+	margin-top: -50px;
+	background-color: #534A4A; /* la couleur sera noir */
+	border-radius: 16px; /* coin arrondi */
+	position:relative;
+}
+.progress-barApache:before
+{
+	content: '6%';/* la valeur dans la bar de progression */
+	text-align: center;
+	position: absolute; /* elle sera au dessus de tout */
+	width: 6%; /* la barre de progresssion sera a 5% */
+	max-width: 98%;
+	height: 24px;/* a 24px de hauteur*/
+	background: silver; /* la progression sera de couleur silver */
+	border-radius: 12px;/* coin arrondi */
+}
+.progress-barGimp {
+	width: auto;/* la bar mesure auto*/
+	height: 24px;/* a 24px de hauteur*/
+	padding: 4px;/* a l'interieur la ligne noir sera a 4px de gauche droite haut bas*/
+	margin-left: 300px;
+	margin-top: -50px;
+	background-color: #534A4A; /* la couleur sera noir */
+	border-radius: 16px; /* coin arrondi */
+	position:relative;
+}
+.progress-barGimp:before
+{
+	content: '14%';/* la valeur dans la bar de progression */
+	text-align: center;
+	position: absolute; /* elle sera au dessus de tout */
+	width: 14%; /* la barre de progresssion sera a 5% */
+	max-width: 98%;
+	height: 24px;/* a 24px de hauteur*/
+	background: silver; /* la progression sera de couleur silver */
+	border-radius: 12px;/* coin arrondi */
+}
+.progress-barMaquetage {
+	width: auto;/* la bar mesure auto*/
+	height: 24px;/* a 24px de hauteur*/
+	padding: 4px;/* a l'interieur la ligne noir sera a 4px de gauche droite haut bas*/
+	margin-left: 300px;
+	margin-top: -50px;
+	background-color: #534A4A; /* la couleur sera noir */
+	border-radius: 16px; /* coin arrondi */
+	position:relative;
+}
+.progress-barMaquetage:before
+{
+	content: '30%';/* la valeur dans la bar de progression */
+	text-align: center;
+	position: absolute; /* elle sera au dessus de tout */
+	width: 30%; /* la barre de progresssion sera a 5% */
+	max-width: 98%;
+	height: 24px;/* a 24px de hauteur*/
+	background: silver; /* la progression sera de couleur silver */
+	border-radius: 12px;/* coin arrondi */
+}
+@media (max-width:980px)
+{
+	ul
+	{
+		padding:0;
+	}
+	section
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	#competances
+	{
+		margin-left: 120px;
+		clear:both;
+		width: auto;
+	}
+	#diplomes
+	{
+		margin-left: 120px;
+		width: auto;
+		margin-top: 20px;
+	}
+	#formations
+	{
+		margin-left: 120px;
+		width: auto;
+		margin-top: 20px;
+	}
+	#loisirs
+	{
+		margin-left: 120px;
+		width: auto;
+		margin-top: 20px;
+	}
+	.progress-barLinux
+	{
+		margin:0;
+	}
+	.progress-barNano
+	{
+		margin:0;
+	}
+	.progress-barGitGithub
+	{
+		margin:0;
+	}
+	.progress-barHtml
+	{
+		margin:0;
+	}
+	.progress-barCss
+	{
+		margin:0;
+	}
+	.progress-barAtom
+	{
+		margin:0;
+	}
+	.progress-barPhp
+	{
+		margin:0;
+	}
+	.progress-barVhost
+	{
+		margin:0;
+	}
+	.progress-barApache
+	{
+		margin:0;
+	}
+	.progress-barGimp
+	{
+		margin:0;
+	}
+	.progress-barMaquetage
+	{
+		margin:0;
+	}
+}
